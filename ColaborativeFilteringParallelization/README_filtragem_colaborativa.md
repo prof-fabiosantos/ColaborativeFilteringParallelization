@@ -41,9 +41,10 @@ ratings_norm = pd.DataFrame(StandardScaler().fit_transform(ratings_filled),
 ### 3. Cálculo de Similaridades entre Usuários
 A similaridade é medida usando o **Cosseno de Similaridade**, que compara o ângulo entre os vetores de avaliação dos usuários.
 
-\[
+$$
 \text{similaridade}(A, B) = \frac{A \cdot B}{||A|| \, ||B||}
-\]
+$$
+
 
 Cada usuário tem sua similaridade calculada com todos os outros:
 
