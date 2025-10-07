@@ -42,7 +42,7 @@ ratings_norm = pd.DataFrame(StandardScaler().fit_transform(ratings_filled),
 A similaridade é medida usando o **Cosseno de Similaridade**, que compara o ângulo entre os vetores de avaliação dos usuários.
 
 $$
-\text{similaridade}(A, B) = \frac{A \cdot B}{||A|| \, ||B||}
+\text{similaridade}(A, B) = \frac{A \cdot B}{||A|| \. ||B||}
 $$
 
 
